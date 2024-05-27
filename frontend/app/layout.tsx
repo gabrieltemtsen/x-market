@@ -1,14 +1,15 @@
 
 import "./globals.css";
 import type { Metadata } from "next";
-import { Fredoka } from "next/font/google";
+import { Fredoka, Space_Grotesk } from "next/font/google";
 import { ChakraProvider } from "./providers/chakra-provider";
 import RainbowWagmiProvider from "./providers/rainbow-wagmi-provider";
 import { ReduxProvider } from "./providers/redux-provider";
 const fredoka = Fredoka({ subsets: ["latin"] });
+const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pontis - Bridge, Mint and Swap NFTs",
+  title: "X-market - Bridge, Mint and Swap NFTs",
   description: "Bridge, Mint and Swap NFTs",
 };
 
@@ -19,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={fredoka.className}>
+      <body className={spaceGrotesk.className}>
         
           <ReduxProvider>
 

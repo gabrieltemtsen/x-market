@@ -5,8 +5,10 @@ import Navbar from "@/app/components/Navbar";
 import { Box, Heading, Text } from "@chakra-ui/react";
 import Footer from "./components/Footer";
 
-import { Montserrat} from "next/font/google";
+import { Montserrat,Fredoka} from "next/font/google";
 const montserrat=Montserrat({subsets:['latin'],weight:['400','500','600','700']})
+const fredoka = Fredoka({ subsets: ["latin"] });
+
 export default function Home() {
   return (
     <>
@@ -16,7 +18,7 @@ export default function Home() {
         pos="relative"
         minH={"650"}
         as="main"
-        bgGradient={"linear(120deg,#000 ,brand.700 80%)"}
+        bgGradient={"linear(120deg,#000 ,blue.500 80%)"}
       >
         <Flex
           wrap={"wrap"}
@@ -26,7 +28,7 @@ export default function Home() {
           // overflowY={"auto"}
           h={"full"}
           // minH={'full'}
-          bg={"whiteAlpha.400"}
+          bg={"whiteAlpha.100"}
           backdropFilter={"blur(30px)"}
           
         >
@@ -34,7 +36,7 @@ export default function Home() {
             <Heading
               py={4}
               className="clip-text"
-              bgGradient={"linear(to-r,brand.400,yellow)"}
+              bgGradient={"linear(to-r,blue.700,blue.200)"}
               bgClip={"text"}
               size={"2xl"}
               fontFamily={"inherit"}
@@ -44,8 +46,8 @@ export default function Home() {
             <Text fontSize={"4xl"} color={"white"}>
               Your NFTs.
             </Text>
-            <Text fontSize={"lg"} lineHeight={"tall"} py={4} color={"gray.200"} className={montserrat.className}>
-            Pontis is an innovative decentralized application (DApp) that redefines the NFT landscape by combining bridging, minting, and swapping functionalities into a single, user-friendly platform. Navigating the complex world of NFTs becomes effortless as Pontis introduces a unified ecosystem with seamless blockchain bridging, streamlined NFT minting, and hassle-free swapping capabilities.
+            <Text fontSize={"lg"} lineHeight={"tall"} py={4} color={"gray.200"} className={fredoka.className}>
+            X-market is an innovative decentralized application (DApp) that redefines the NFT landscape by combining bridging, minting, and swapping functionalities into a single, user-friendly platform.
             </Text>
           </Box>
 

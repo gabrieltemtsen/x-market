@@ -10,8 +10,8 @@ const navbarLinks = [
     title: "Home",
     url: "/",
   },
-  { title: "Bridge", url: "/bridge" },
-  { title: "Mint", url: "/mint" },
+  { title: "X-Bridge", url: "/bridge" },
+  { title: "X-Mint", url: "/mint" },
   {
     title: "History",
     url: "/history",
@@ -45,7 +45,7 @@ const styleForScroll=scrollY > 70?{bg:'whiteAlpha.400',backdropFilter:'blur(25px
       px={{ base: 4, lg: "7" }}
       py={4}
     >
-      <Box color={"brand.300"}><Image src={'/logo.svg'} alt="logo" maxW={'90'}/></Box>
+      <Box color={"brand.300"}><Image src={'https://see.fontimg.com/api/renderfont4/2vEpK/eyJyIjoiZnMiLCJoIjoxMjgsInciOjEwMDAsImZzIjoxMjgsImZnYyI6IiM0NDRBQTQiLCJiZ2MiOiIjRjRFOUU5IiwidCI6MX0/WC1tYXJrZXQ/blood-hunter.png'} alt="logo" maxW={'90'}/></Box>
       <Flex gap={8}>
         {navbarLinks.map((lnk, i) => (
           <Button
@@ -62,7 +62,7 @@ const styleForScroll=scrollY > 70?{bg:'whiteAlpha.400',backdropFilter:'blur(25px
               transform: "translateX(-50%)",
               w: pathname === lnk.url ? "60%" : "0",
               h: "0.25em",
-              bg: "brand.300",
+              bg: "blue.300",
               borderRadius: "4",
             }}
             fontWeight={"medium"}
