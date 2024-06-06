@@ -12,10 +12,10 @@ const navbarLinks = [
   },
   { title: "X-Bridge", url: "/bridge" },
   { title: "X-Mint", url: "/mint" },
-  {
-    title: "History",
-    url: "/history",
-  },
+  // {
+  //   title: "History",
+  //   url: "/history",
+  // },
 ];
 const Navbar = () => {
   const pathname = usePathname();
