@@ -75,14 +75,14 @@ export default function Home() {
       <Flex wrap={{lg:'nowrap',base:'wrap'}} className={montserrat.className} justify={'space-evenly'} gap={8} py={{lg:10,base:8}} px={{lg:4,base:2}} my={8} minH={300} borderRadius={'lg'} bg={'black'}>
 
 <Box p={{lg:6,base:4}}  maxW={650} border={'2px'} borderColor={'gray.700'} borderRadius={'xl'}>
-<Heading textAlign={'center'} mb={6}>Why Pontis?</Heading>
+<Heading textAlign={'center'} mb={6}>Why X-market</Heading>
 <Box color={'gray.300'}>
   <Text mb={5} fontSize={{lg:'md',base:'sm'}}>
-  Pontis is driven by a commitment to democratize the NFT ecosystem, making it accessible to both newcomers and seasoned enthusiasts. The platform's user-centric approach prioritizes simplicity, security, and interoperability, enabling users to engage with NFTs without the technical complexities often associated with blockchain technology.
+  X-market is driven by a commitment to democratize the NFT ecosystem, making it accessible to both newcomers and seasoned enthusiasts. The platform's user-centric approach prioritizes simplicity, security, and interoperability, enabling users to engage with NFTs without the technical complexities often associated with blockchain technology.
 </Text>
 <Text>
 
-Moreover, Pontis places a strong emphasis on community-building and collaboration. Through its vibrant marketplace and interactive features, users can connect with like-minded individuals, share their creations, and explore the vast world of NFTs together.
+Moreover, X-market places a strong emphasis on community-building and collaboration. Through its vibrant marketplace and interactive features, users can connect with like-minded individuals, share their creations, and explore the vast world of NFTs together.
   </Text>
 </Box>
 </Box>
@@ -99,7 +99,7 @@ Moreover, Pontis places a strong emphasis on community-building and collaboratio
 Bridging: </Text>  
 <Text color={'gray.300'} as={'span'}>
 
- Pontis breaks down barriers by offering a sophisticated bridge that seamlessly connects NFTs across multiple blockchains. Whether you're moving NFTs from Ethereum to Binance Smart Chain or any other compatible chain, Pontis ensures a secure and efficient transition.
+ X-bridge breaks down barriers by offering a sophisticated bridge that seamlessly connects NFTs across multiple blockchains. Whether you're moving NFTs from Swisstronik to Polygon in or any other compatible chain, X-bridge ensures a secure and efficient transition.
 
 </Text>
 </Text>
@@ -111,7 +111,7 @@ Bridging: </Text>
 Minting: </Text>  
 <Text color={'gray.300'} as={'span'}>
 
-Creating NFTs has never been more accessible. Pontis empowers artists, creators, and collectors to mint their digital creations into NFTs effortlessly. With customizable attributes and metadata, the platform allows for a personalized touch that truly captures the essence of each NFT.
+Creating NFTs has never been more accessible. X-mint empowers artists, creators, and collectors to mint their digital creations into NFTs effortlessly. With customizable attributes and metadata, the platform allows for a personalized touch that truly captures the essence of each NFT.
 </Text>
 </Text>
   
@@ -121,7 +121,7 @@ Creating NFTs has never been more accessible. Pontis empowers artists, creators,
 <Text as={'span'} fontWeight={'semibold'}>
   Swapping: </Text>
   <Text color={'gray.300'} as={'span'}>
-    The NFT landscape is characterized by its diversity, and Pontis celebrates this diversity by enabling users to easily swap NFTs across various networks. Whether it's trading, selling, or exchanging NFTs, the platform's intuitive interface ensures a frictionless experience.
+    The NFT landscape is characterized by its diversity, and X-swap celebrates this diversity by enabling users to easily swap NFTs across various networks. Whether it's trading, selling, or exchanging NFTs, the platform's intuitive interface ensures a frictionless experience.
 
     </Text> 
 </Text>
